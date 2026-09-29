@@ -1,0 +1,46 @@
+export const palette = {
+  primary: '#0D74CE',
+  primaryDark: '#0A5C9E',
+  primaryLight: '#8EC8F6',
+  backgroundLight: '#FFFFFF',
+  backgroundDark: '#121212',
+  surfaceLight: '#F8F9FA',
+  surfaceDark: '#1E1E1E',
+  cardLight: '#FFFFFF',
+  cardDark: '#252525',
+  textLight: '#111827',
+  textDark: '#F9FAFB',
+  textMutedLight: '#6B7280',
+  textMutedDark: '#9CA3AF',
+  borderLight: '#E5E7EB',
+  borderDark: '#374151',
+  error: '#EF4444',
+  success: '#10B981',
+  warning: '#F59E0B',
+};
+
+export const lightColors = {
+  primary: palette.primary,
+  background: palette.backgroundLight,
+  surface: palette.surfaceLight,
+  card: palette.cardLight,
+  text: palette.textLight,
+  textMuted: palette.textMutedLight,
+  border: palette.borderLight,
+  error: palette.error,
+  success: palette.success,
+  warning: palette.warning,
+};
+
+export const darkColors = {
+  primary: palette.primaryLight,
+  background: palette.backgroundDark,
+  surface: palette.surfaceDark,
+  card: palette.cardDark,
+  text: palette.textDark,
+  textMuted: palette.textMutedDark,
+  border: palette.borderDark,
+  error: palette.error,
+  success: palette.success,
+  warning: palette.warning,
+};
